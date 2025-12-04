@@ -1,0 +1,12 @@
+{
+  "name": "Spark",
+  "author": "Slatyo",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/Slatyo/Valheim-Spark",
+  "description": "Shared VFX & audio effects framework. Elemental particles, weapon glows, creature auras, impacts, and audio pooling.",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2333",
+    "ValheimModding-Jotunn-2.26.1",
+    "Slatyo-Munin-1.0.0"
+  ]
+}
