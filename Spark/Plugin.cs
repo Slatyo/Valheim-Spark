@@ -14,12 +14,12 @@ namespace Spark
     /// </summary>
     [BepInPlugin(PluginGUID, PluginName, PluginVersion)]
     [BepInDependency(Jotunn.Main.ModGuid)]
-    [BepInDependency("com.slaty.munin")]
+    [BepInDependency("com.slatyo.munin")]
     [NetworkCompatibility(CompatibilityLevel.ClientMustHaveMod, VersionStrictness.Minor)]
     public class Plugin : BaseUnityPlugin
     {
         /// <summary>Plugin GUID for BepInEx.</summary>
-        public const string PluginGUID = "com.spark.valheim";
+        public const string PluginGUID = "com.slatyo.spark";
         /// <summary>Plugin display name.</summary>
         public const string PluginName = "Spark";
         /// <summary>Plugin version.</summary>
