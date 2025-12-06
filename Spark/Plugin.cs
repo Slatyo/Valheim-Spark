@@ -2,6 +2,7 @@ using BepInEx;
 using BepInEx.Logging;
 using HarmonyLib;
 using Jotunn.Utils;
+using Spark.API;
 using Spark.Commands;
 using Spark.Core;
 using Spark.Internal;
@@ -47,6 +48,7 @@ namespace Spark
             EffectPool.Initialize();
             AudioPool.Initialize();
             TextureLoader.Initialize();
+            SparkAbility.Initialize();
 
             // Initialize Harmony patches (if any needed)
             _harmony = new Harmony(PluginGUID);
